@@ -2,8 +2,6 @@ import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config();
 
-// const connectionString = "mongodb+srv://seanfowles:Q1w2e3r4@clusterice.2xr9otn.mongodb.net/";
-
 const connectionString = process.env.MONGO_CONN_STRING;
 console.log(connectionString);
 
